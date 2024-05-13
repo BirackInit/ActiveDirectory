@@ -1,0 +1,13 @@
+Premiere chose, créez une GPO (exemple Disable_LLMNR)
+Après avoir créé votre GPO, suivez ces étapes pour désactiver LLMNR manuellement : 
+Accédez à 
+→ 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐫𝐝𝐢𝐧𝐚𝐭𝐞𝐮𝐫  
+→ 𝐌𝐨𝐝𝐞̀𝐥𝐞𝐬 𝐝'𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 
+→ 𝐑𝐞́𝐬𝐞𝐚𝐮 
+→ 𝐂𝐥𝐢𝐞𝐧𝐭 𝐃𝐍𝐒 
+→ 𝐑𝐞́𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐝𝐞 𝐧𝐨𝐦𝐬 𝐝𝐞 𝐦𝐮𝐥𝐭𝐢𝐝𝐢𝐟𝐟𝐮𝐬𝐢𝐨𝐧. 
+Localisez l'option « 𝐃𝐞́𝐬𝐚𝐜𝐭𝐢𝐯𝐞𝐫 𝐥𝐚 𝐫𝐞́𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐝𝐞 𝐧𝐨𝐦 𝐝𝐞 𝐦𝐮𝐥𝐭𝐢𝐝𝐢𝐟𝐟𝐮𝐬𝐢𝐨𝐧 » et cliquez sur « Paramètre de stratégie ». 
+Une fois la nouvelle fenêtre ouverte, activez cette option, appuyez sur Appliquer et cliquez sur OK. 
+Cela désactivera le protocole LLMNR sur les ordinateurs ciblés par la GPO, renforçant ainsi la sécurité du réseau en évitant les risques potentiels d'empoisonnement LLMNR.
+
+
